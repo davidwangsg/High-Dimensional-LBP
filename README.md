@@ -61,6 +61,10 @@ After face detection, we can extract the high dimensional LBP features using ext
 
 The output will be  **image_name.lbp** which contains 75,520 dimensional lbp features
 
+## Recogntion
+They use PCA to reduce the feature dimension, and employ cosine similarity to compute the similarity between
+two faces. 
+
 ##Contact
 
 If you have any questions, feel free to contact me at bcsiriuschen@gmail.com
